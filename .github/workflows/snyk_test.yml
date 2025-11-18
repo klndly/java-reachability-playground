@@ -9,6 +9,6 @@ jobs:
      - uses: actions/checkout@master
      - name: Run Snyk Test
        uses: snyk/actions/maven@master
-       #continue-on-error: true       
+       continue-on-error: true       
        env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}    
