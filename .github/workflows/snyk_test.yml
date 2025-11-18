@@ -1,5 +1,5 @@
 
-name: "Example workflow for Maven using Snyk"
+name: "Example workflow for Maven using Snyk "
 # Run workflow each time code is pushed to your repository.
 on: push
 jobs:
